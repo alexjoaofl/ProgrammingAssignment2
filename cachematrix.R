@@ -78,7 +78,7 @@ cacheSolve <- function(x,...) {
         x$setinv_m(m)
 	x$get()
 	
-        m
+        return(m)
 
 }
 
